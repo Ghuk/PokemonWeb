@@ -12,7 +12,6 @@ body{
 	justify-content:flex-end;
 	padding-right: 10em;
 	align-items:center;
-	height: 17.4em;
 }
 
 .top .info{
@@ -37,7 +36,6 @@ body{
 }
 
 .bot{
-	height: 17.4em;
 	display: flex;
 	background-color: #2196F3;
 	align-items:center;
@@ -167,41 +165,48 @@ button{
 
 #cambio {
 	display: none;
-	padding: 1em;
 	background-color: #CFD8DC;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	height: 13em;
-	width: 25em;
+	height: 11em;
+	width: 21em;
 	border-radius: 1.5em;
 	color:black;
-	padding: 1em;
+	padding: 0.5em;
 }
 .pokemons{
 	display:flex;
 }
-
+.imgCambio{
+	height: 0.001em;
+	width: 0.001em;
+}
 .pokemon{
 	display:flex;
-	background-color: white;
-	padding: 1em;
-	margin: 0.2em;
-	border-radius: 1em;
 	flex-wrap:wrap;
 	align-items:center;
 	justify-content:center;
+	background-color: white;
+	padding: 0.5em;
+	margin: 0.1em;
+	border-radius: 1em;
 	height: 8em;
 	width: 4em;
-
+}
+.pokemon button{
+	font-size: 0.6em;
 }
 .pokemon:hover{
 	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-	font-weight:bold;
+}
+.pokemon img{
+	height: 4.5em;
+	width: 4.5em;
+}
+.nombrePokCambio{
+	font-size: 0.8em;
 }
 
-.imgCambio{
-	height: 5em;
-	width: 3em;
-}
+
 
 .BSalir{
 	margin-top: 0.5em; 
@@ -211,7 +216,8 @@ button{
 }
 
 .BSalir button{
-	width: 30em;
+	font-size: 0.8em;
+	width: 20em;
 }
 .BSalir button:hover{
 	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
