@@ -48,3 +48,9 @@ function off() {
     document.getElementById("cambio").style.display = "none";
     document.getElementById("accion").style.display = "flex";
 }
+
+function cambio(srcNueva, nombreNuevo){
+	document.getElementById("miPokemonFoto").src = srcNueva;
+	document.getElementById("miPookemonnombre").innerHTML = nombreNuevo;
+	
+}
