@@ -134,7 +134,7 @@ button{
 	color:white;
 	border-radius: 0.5em;
 	height: 2em;
-	background-color:#7E57C2;
+	background-color:black;
 	border:none;
 }
 
@@ -173,13 +173,11 @@ button{
 	color:black;
 	padding: 0.5em;
 }
+
 .pokemons{
 	display:flex;
 }
-.imgCambio{
-	height: 0.001em;
-	width: 0.001em;
-}
+
 .pokemon{
 	display:flex;
 	flex-wrap:wrap;
@@ -199,6 +197,7 @@ button{
 	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 .pokemon img{
+	
 	height: 4.5em;
 	width: 4.5em;
 }
@@ -224,5 +223,62 @@ button{
 	font-weight:bold;
 }
 
+.Seleccion{
+	display: flex;
+	justify-content:space-around;
+	color:black;
+	padding: 3em;
+}
 
+.fondo{
 
+	background-image: url('https://orig00.deviantart.net/6c6f/f/2014/141/2/a/_wallpaper__generation_6_by_arkeis_pokemon-d7j7rll.jpg');
+
+    background-size: 85em 30em;
+
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.Seleccion #personaje{
+	background-color: rgba(33,150,243, 0.8);
+	padding: 3em;
+	border-radius: 1em;
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Seleccion #enemigo{
+	background-color: rgba(244,67,54, 0.8);
+	padding: 3em;
+	border-radius: 1em;
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#encabezado{
+	color:white;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 1em;
+}
+
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+	font-weight:bold;
+}
+
+.BSelect{
+	background-color:black;
+	color: white;
+}
+.BSelect:hover{
+	box-shadow: 0 0 6px 3px rgba(0, 140, 186, 0.5);
+}

@@ -2,93 +2,34 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Fights</title>
+	<title>Document</title>
 	<link rel="stylesheet" href="style.css">
 </head>
-<body onload="Initialize()">
-
-	<div class="top">
-		<div class="info">
-			<div class="nombre">
-				Espeon
-			</div>
-			<div class="fondoVida">
-				<div id="barraEnemigo" class="vida">
-					
-				</div>
-			</div>
+<body>
+	<div class="fondo">
+		<div id="encabezado">
+			<h1>Bienvenido a Fight</h1>
 		</div>
-		<div class="fotoEnemigo">
-			<img class="fotoPok" src="https://vignette.wikia.nocookie.net/es.pokemon/images/4/41/Espeon_XY.gif/revision/latest?cb=20140111112717" alt="">
-		</div>
-	</div>
-	<div class="centro">
-		<img class="centroImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/481px-Pok%C3%A9_Ball_icon.svg.png" alt="">
-	</div>
-	<div class="bot">
-		<div class="iden">
-			<div class="foto">
-				<img class="fotoPok" id="miPokemonFoto"src="https://vignette.wikia.nocookie.net/es.pokemon/images/f/f5/Arcanine_XY.gif/revision/latest?cb=20140103062618" alt="">
+		<div class="Seleccion">
+			<div id="personaje">
+				<h2>Selecciona tu personaje</h2>
+				<select id="opciones">
+					<option value="Feraligatr">Feraligator</option>
+					<option value="Arcanine">Arcanine</option>
+					<option value="Gliscor">Gliscor</option>
+					<option value="Aggron">Aggron</option>
+				</select>
+				<button class="BSelect" onClick="Seleccion(0)">Seleccionar</button>
 			</div>
-			<div class="info">
-				<div class="nombre" id="miPookemonnombre">
-					Arcanine
-				</div>
-				<div class="fondoVida">
-					<div id="barraPersonaje" class="vida">
-						
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="accion" id="accion">
-			<!--<button onClick="Atacar()">Atacar</button>
-			<button onClick="Atacar()">Cambiar</button>
-			<button onClick="Atacar()">Mochila</button>
-			<button onClick="Atacar()">Salir</button>-->
-			<div id="accionTop">
-				<div class="boton" id="topR" onClick="Atacar()">
-					Atacar
-				</div>
-				
-			</div>
-			<div id="accionBot">
-				<div class="boton" id="topL" onClick="on()">
-					Cambiar
-				</div>
-				<div class="boton" id="botR">
-					Mochila
-				</div>
-				<div class="boton" id="botL" onClick="Escapar()">
-					Escapar
-				</div>
-			</div>
-		</div>
-		<div class="cambio" id="cambio">
-			<div class="pokemons">
-				<div class="pokemon">
-					<div class="nombrePokCambio">Feraligatr</div>
-					<img class"imgCambio" src="https://vignette.wikia.nocookie.net/es.pokemon/images/2/25/Feraligatr_NB.gif/revision/latest?cb=20101101001431" alt="">
-					<button onClick="cambio('https://vignette.wikia.nocookie.net/es.pokemon/images/9/9a/Feraligatr_XY.gif/revision/latest?cb=20150421234039','Feraligatr')">Seleccionar</button>
-				</div>
-				<div class="pokemon">
-					<div class="nombrePokCambio">Arcanine</div>
-					<img class"imgCambio" src="https://vignette.wikia.nocookie.net/es.pokemon/images/9/97/Arcanine_NB.gif/revision/latest?cb=20101031234136" alt="">
-					<button onClick="cambio('https://vignette.wikia.nocookie.net/es.pokemon/images/f/f5/Arcanine_XY.gif/revision/latest?cb=20140103062618','Arcanine')">Seleccionar</button>
-				</div>
-				<div class="pokemon">
-					<div class="nombrePokCambio">Gliscor</div>
-					<img class"imgCambio" src="https://vignette.wikia.nocookie.net/es.pokemon/images/1/1e/Gliscor_NB.gif/revision/latest?cb=20101101183015" alt="">
-					<button onClick="cambio('https://vignette.wikia.nocookie.net/es.pokemon/images/0/0e/Gliscor_XY.gif/revision/latest?cb=20140111115758', 'Gliscor')">Seleccionar</button>
-				</div>
-				<div class="pokemon">
-					<div class="nombrePokCambio">Aggron</div>
-					<img class"imgCambio" src="https://vignette.wikia.nocookie.net/es.pokemon/images/d/dc/Aggron_NB.gif/revision/latest?cb=20101224125147" alt="">
-					<button onClick="cambio('https://vignette.wikia.nocookie.net/es.pokemon/images/2/2b/Aggron_XY.gif/revision/latest?cb=20140505212219','Aggron')">Seleccionar</button>
-				</div>
-			</div>
-			<div class="BSalir">
-				<button onClick="off()">Salir</button>
+			<div id="enemigo">
+				<h2>Selecciona el enemigo</h2>
+				<select id="opcionesEnemigo">
+					<option value="Feraligatr">Feraligator</option>
+					<option value="Arcanine">Arcanine</option>
+					<option value="Gliscor">Gliscor</option>
+					<option value="Aggron">Aggron</option>
+				</select>
+				<button class="BSelect" onClick="Seleccion(1)">Seleccionar</button>
 			</div>
 		</div>
 	</div>
