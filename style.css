@@ -3,15 +3,26 @@ body{
 	color: white;
 	font-weight:bold;
 	position: relative;
+	
+
+}
+
+.fondoFight{
 	background-image: url("http://1.bp.blogspot.com/_HR3JtqIfTiE/RygDBrigIkI/AAAAAAAAASs/zoeFpSqyLoE/s400/Snow+White+background.jpg");
-	background-size: 85.5em 40em;
+	background-size: 86em 40em;
 	background-repeat: none;
 
+
+    background-position: right top;
+    height: 38.8em;
+}
+
+.relleno{
+	height: 7em;
 }
 
 .top{
 	background-color: rgba(33,150,243, 0.0);
-	margin-top: 7.5em;	
 	display: flex;
 	padding: 1em;
 	justify-content:flex-end;
