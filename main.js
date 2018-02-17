@@ -109,9 +109,11 @@ function Seleccion(valor){
 	if(valor==0){
 		var select = document.getElementById("opciones").value;
 		localStorage.setItem("option",select);
+		document.getElementById("botonUno").style.display = "none";
 	}else{
 		var select = document.getElementById("opcionesEnemigo").value;
 	    localStorage.setItem("option2",select);
+	    document.getElementById("botonDos").style.display = "none";
 	}
 	
 	if(cont == 2)

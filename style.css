@@ -3,10 +3,15 @@ body{
 	color: white;
 	font-weight:bold;
 	position: relative;
+	background-image: url("http://1.bp.blogspot.com/_HR3JtqIfTiE/RygDBrigIkI/AAAAAAAAASs/zoeFpSqyLoE/s400/Snow+White+background.jpg");
+	background-size: 85.5em 40em;
+	background-repeat: none;
+
 }
 
 .top{
-	background-color: #F44336;
+	background-color: rgba(33,150,243, 0.0);
+	margin-top: 7.5em;	
 	display: flex;
 	padding: 1em;
 	justify-content:flex-end;
@@ -21,15 +26,15 @@ body{
 
 .fondoVida{
 	display: flex;
-	background-color: white;
 	width: 15.5em;
-	height: 2.5em;
+	height: 1.5em;
 	align-items:center;
+	background-color: white;
 }
 
 .vida{
 	width: 15em;
-	height: 2em;
+	height: 1em;
 	background-color: #76FF03;
 	border-left: 4px solid white;
 	transition: all 1s ease;
@@ -37,7 +42,7 @@ body{
 
 .bot{
 	display: flex;
-	background-color: #2196F3;
+	background-color: rgba(244,67,54, 0.0);
 	align-items:center;
 	padding: 1em;
 	justify-content:space-around;
@@ -50,7 +55,7 @@ body{
 
 .foto{
 	padding: 1em;
-	width: 8.5em;
+	width: 12.5em;
 	height: 10em;
 
 }
@@ -63,16 +68,20 @@ body{
 
 	width: 8.5em;
 	height: 10em;
-	background-color: white;
 	padding: 0.55em;
 	border-radius: 1em;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#miPokemonFoto{
+	width: 12.5em;
+	height: 15em;
+	padding: 0.55em;
+	border-radius: 1em;
 }
 
 #accion{
 	display: flex;
-	background-color: #CFD8DC;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: rgba(0,0,0, 0.9);;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.5);
 	height: 13em;
 	width: 20em;
 	border-radius: 1.5em;
@@ -165,7 +174,7 @@ button{
 
 #cambio {
 	display: none;
-	background-color: #CFD8DC;
+	background-color:rgba(200,200,200, 0.9);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	height: 11em;
 	width: 21em;
@@ -217,6 +226,8 @@ button{
 .BSalir button{
 	font-size: 0.8em;
 	width: 20em;
+	background-color: white;
+	color:black;
 }
 .BSalir button:hover{
 	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
@@ -228,23 +239,23 @@ button{
 	justify-content:space-around;
 	color:black;
 	padding: 3em;
+	flex-wrap: wrap;
 }
 
 .fondo{
 
 	background-image: url('https://orig00.deviantart.net/6c6f/f/2014/141/2/a/_wallpaper__generation_6_by_arkeis_pokemon-d7j7rll.jpg');
 
-    background-size: 85em 30em;
+    background-size: 86em 40em;
 
     background-position: right top;
-    background-repeat: no-repeat;
+    height: 39.5em;
 }
 
 .Seleccion #personaje{
 	background-color: rgba(33,150,243, 0.8);
 	padding: 3em;
 	border-radius: 1em;
-
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
